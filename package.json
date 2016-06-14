@@ -1,0 +1,21 @@
+{
+  "name": "student_api",
+  "version": "1.0.0",
+  "description": "Students API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/somasuraj3/student_api.git"
+  },
+  "author": "Suraj Soma",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/surajso/student_api#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4"
+  }
+}
