@@ -1,0 +1,17 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
+    {
+      "name": "student_api",
+      "image": "somasuraj/studentapi:3.0",
+      "essential": true,
+      "memory": 128,    
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 80
+        }
+      ]
+    }      
+  ]
+}
