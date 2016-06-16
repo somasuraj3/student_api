@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "student_api",
-      "image": "somasuraj/studentapi:4.0",
+      "image": "somasuraj/studentapi:4.1",
       "essential": true,
       "memory": 128,    
       "portMappings": [
