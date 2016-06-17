@@ -15,7 +15,7 @@
       "environment": [
         {
           "name": "DBURL",
-          "value": "52.90.8.169:27017"
+          "value": "ec2-52-90-8-169.compute-1.amazonaws.com"
         }
       ]
     }      
