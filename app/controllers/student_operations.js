@@ -7,6 +7,11 @@ var path = require('path'),
 	module.exports = {
 
 	list: function(req,res){
+		res.json({'Name':'Abhishek Badwaik'});
+	}
+
+	/*	
+	list: function(req,res){
 		console.log('in home controller');
 		students = [];
 		StudentModel.find({},{},function(error,studs){
@@ -16,6 +21,7 @@ var path = require('path'),
 			res.json(students);	
 		});
 	},
+	
 
 	get: function(req,res){
 		console.log('in home controller');
@@ -51,4 +57,5 @@ var path = require('path'),
 			});				
 		});
 	}
+	*/
 };
