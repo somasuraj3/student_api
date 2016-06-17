@@ -3,13 +3,19 @@
   "containerDefinitions": [
     {
       "name": "student_api",
-      "image": "somasuraj/studentapi:4.1",
+      "image": "somasuraj/studentapi:4.2",
       "essential": true,
       "memory": 128,    
       "portMappings": [
         {
           "hostPort": 80,
           "containerPort": 80
+        }
+      ],
+      "environment": [
+        {
+          "name": "DBURL",
+          "value": "54.242.156.243:27017"
         }
       ]
     }      

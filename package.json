@@ -1,21 +1,18 @@
 {
-  "name": "student_api",
+  "name": "product_api",
   "version": "1.0.0",
-  "description": "Students API",
-  "main": "server.js",
+  "description": "This is a Product API service",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://https://github.com/somasuraj3/student_api.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Suraj Soma",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/surajso/student_api#readme",
   "dependencies": {
-    "body-parser": "^1.15.1",
-    "express": "^4.13.4"
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.4.14",
+    "morgan": "^1.7.0"
   }
 }
