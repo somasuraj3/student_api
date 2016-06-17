@@ -24,9 +24,9 @@ module.exports = function(app){
 	});
 	
 	router.get('/students', operations.list);
-	router.get('/students/:id', operations.get);
-	router.post('/students', operations.create);
-	router.delete('/students/:id', operations.remove);
+	//router.get('/students/:id', operations.get);
+	//router.post('/students', operations.create);
+	//router.delete('/students/:id', operations.remove);
 
 	//router.delete('/employees/'+ id ,home.remove);
 	app.use(router);

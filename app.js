@@ -18,11 +18,14 @@ app.use(morgan('combined', {stream: accessLogStream}));
 
 routes(app);
 
+/*
 mongoose.connect(db.url);
 
 mongoose.connection.on('open',function(){
 	console.log('mongoose connected');
 });
+
+*/
 
 app.listen(port,function(){
 	console.log('sever is listening on ' + port);
