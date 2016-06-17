@@ -7,7 +7,7 @@ var path = require('path'),
 	module.exports = {
 
 	list: function(req,res){
-		res.json({'Name':'Abhishek Badwaik'});
+		res.json({'Name':'Suraj Soma'});
 	}
 
 	/*	
